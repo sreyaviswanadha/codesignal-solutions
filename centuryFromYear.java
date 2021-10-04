@@ -1,8 +1,8 @@
-int centuryFromYear(int year) 
+int centuryFromYear(int yr) 
 {
-    if (year % 100 == 0)
+    if (yr % 100 == 0)
     {
-        return (year / 100);
+        return (yr / 100);
     }
-    return (year / 100 + 1);
+    return (yr / 100 + 1);
 }
